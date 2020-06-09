@@ -2,19 +2,19 @@
 target/
 
 #忽略所有以.txt结尾的文件
-.txt
+*.txt
 
 #不忽略b.txt
 !b.txt
 
 #忽略.iml文件
-.iml
+*.iml
 
 #忽略当前文件夹下的所有txt文件
-test/*.txt
+test/*.a
 
 #忽略当前文件夹下及其子文件夹下的所有的txt文件
-text2/**/*.txt
+text2/**/*.a
 
 
 
